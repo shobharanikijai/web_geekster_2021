@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <style>
+        div {
+        position:absolute;
+        left:25%;
+        }
+        .button{ background-color: limegreen;  color: white;}
+        img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <img src="logo.png"/>
+   
+    <div>
+        <h1 ><span style="color: limegreen;">Application</span> Form</h1>
+        <label for="">Select image: <input type="file" accept="image/*"></label><br /><br />
+        <label>Full Name*: </label><input type="text" placeholder="Enter full Name" required> <br /><br />
+        <label>Email*: </label><input type="text" placeholder="Enter email" required> <br /><br />
+        <label>Gender:</label>
+            <input type="radio" > <label for="html">Male</label>
+            <input type="radio" ><label>Female</label> <br /><br />
+        <label>Date of birth: <input type="date"> </label> <br /><br />
+        <label>Select Course*: </label> 
+        <select name="" id="">
+            <option value="" selected>Select Course</option>
+            <option value="">Full Stack Web Development</option>
+            <option value="">Advanced Web Development</option>   
+        </select>
+        <br /> <br />
+        <label>Phone*: </label><input type="number" placeholder="Enter mobile number" required><br /><br />
+        <label>Highest Degree*: </label>
+        <select name="" id="">
+            <option value="" selected>Select highest degree</option>
+            <option value="">BCA</option>
+            <option value="">MCA</option>   
+            <option value="">MS or MTech</option> 
+            <option value="">BE or BTech</option>     
+        </select>
+        <br /><br />
+        <label>Year of Completion*: </label>
+        <select name="" id="">
+            <option value="" selected>Select year of completion</option>
+            <option value="">2018</option>
+            <option value="">2019</option>   
+            <option value="">2020</option> 
+            <option value="">2021</option>     
+        </select>
+        <br /><br />
+        <label>Programming Skills*: </label>
+        <select name="" id="">
+            <option value="" selected>Select programming skill level</option>
+            <option value="">No coding skills</option>
+            <option value="">Basic coding skills</option>   
+            <option value="">Intermediate coding skills</option> 
+            <option value="">Good coding skills</option>     
+        </select>
+        <br /><br />
+        <input type="checkbox"><label>By signing up, you agree to the <span style="color: limegreen;">Terms and Conditions</span> of Geekster (QuantumBit technologies Pvt. Ltd)*.</label><br /> <br />
+        <input type="submit" class="button" />
+</body>
+</html>
