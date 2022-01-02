@@ -23,3 +23,14 @@ if(char == "a" ) {
  console.log(char+"It is a vowel. It is a capital letter");
 } else
     console.log("It is not a vowel!");
+
+
+
+
+//  var ch = 'A';
+//       if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+//          document.write(ch + " is a Vowel");
+//       else if (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
+//          document.write(ch + " is a Vowel");
+//       else
+//          document.write(ch +" is a Consonant");
