@@ -1,0 +1,38 @@
+body{
+	background-color: rgb(13, 94, 67);
+}
+
+/* TRIANGLE */
+.container{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.triangle1 {
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 200px solid rgb(255, 255, 255);
+	margin-top: 100px;
+	position: relative;
+
+}
+.triangle2 {
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 200px solid rgb(17, 236, 185);
+}
+.triangle3 {
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 200px solid  rgb(250, 202, 99);
+	margin-top: -300px;
+}
+
+
+/* SHEET */
+
