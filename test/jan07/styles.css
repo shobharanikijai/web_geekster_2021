@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+}
+section{
+    display: grid;;
+    grid-auto-columns: 1fr;
+   grid-auto-flow: column;
+   padding: 20px;
+}
+section img{
+    height: 350px;
+
+}
+section button{
+    background-color: rgb(6, 193, 255);
+    color: white;
+    padding: 5px 30px;
+    border-radius: 10px;
+    font-size: large;
+}
+section button:hover{
+    background-color: rgb(21, 153, 235);
+}
+section .btn{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 5px;
+}
+section .input-icons i{
+    width: 100%;
+}
+section .fa-keyboard{
+    position: absolute;
+    padding: 10px;
+    min-width: 40px;
+    color: gray;
+}
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+.input-field {
+    /* width: %; */
+    padding: 10px;
+    text-align: center;
+}
+span{
+    display: inline;
+}
+a{
+    color: rgb(35, 184, 192);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
