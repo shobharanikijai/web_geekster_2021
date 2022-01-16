@@ -7,4 +7,5 @@ https://shobharanikijai.github.io/web_geekster_2021/Assignments/january/jan11/in
 https://shobharanikijai.github.io/web_geekster_2021/Assignments/january/jan11/pattern.html
 https://shobharanikijai.github.io/web_geekster_2021/Assignments/january/jan12/index.html
 https://shobharanikijai.github.io/web_geekster_2021/Assignments/january/jan13/index.html
+https://shobharanikijai.github.io/web_geekster_2021/Assignments/january/jan14/calculator.html
 https://shobharanikijai.github.io/web_geekster_2021/Assignments/january/jan14/index.html
