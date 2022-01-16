@@ -1,0 +1,90 @@
+body{margin: 0; position: absolute;}
+header{background: rgb(15, 53, 76);
+     height: 70px;
+     position: fixed;
+     width: 100%;
+     margin-top: 0px;
+}
+#brand{text-align: center; 
+    color: cornsilk; 
+    height: 70px; width: 40%; 
+    float: left;
+}
+ #menu{text-align: center; 
+    line-height: 70px; 
+    color:cornsilk; 
+    height: 70px; width: 60%; 
+    float: right;
+}
+span{margin-right: 30px;}
+
+.wallpaper{
+    /* position: relative; */
+    /* border: 1px solid red; */
+    background-image: url("tips-4905013.jpg");
+    background-size: cover;
+    height: 40vw;
+    margin-top: 0;
+}
+.pwall{
+    padding-top: 80px;
+    width: 30vw;
+}
+.btn{
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgb(27, 22, 92);
+    color: linen;
+   
+}
+.btn:hover{
+    background-color: rgb(16, 11, 153);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.btn-container{
+    padding: 20px;
+}
+p{
+    height: 100px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(83, 77, 43);
+}
+.imgs{
+    border-radius: 100px;
+    width: 20vw;
+    height: 20vw;
+}
+.img0{
+    height: 350px;
+    width: 100%;;
+}
+table{width: 100%; text-align: center; margin-top: 100px;}
+
+.container-0{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+    grid-gap: 10px;
+}
+.videoo > video{
+ width: 20VW;
+ height: 10vw;
+ padding-top: 40PX;;
+ /* display: flex;
+justify-content: flex-end; */
+}
+footer{
+    text-align: center; 
+    color: cornsilk; 
+    background: black;
+    margin-top: 30px;
+    padding: 30px;
+    text-align: center;
+}
