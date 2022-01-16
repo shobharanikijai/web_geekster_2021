@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    background-color: rgb(243, 212, 212);
+}
+
+/* Assignment 1 */
+.head{
+    background-color: rgb(255, 0, 0);
+    position: sticky;
+    top: 0;
+    height: 30px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+table{
+    width: 100%;
+    text-align: left;
+}
+
+/* Assignment 2 */
