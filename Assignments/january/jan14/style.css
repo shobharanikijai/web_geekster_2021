@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+
+}
+.container{
+    width: 50vh;
+    text-align: center;
+    margin-top: 20px;;
+   margin-left: auto;
+   margin-right: auto;
+   /* border: 1px solid red; */
+   background-image: linear-gradient(rgb(255, 153, 0), rgb(0, 0, 0));;
+   padding: 10px;
+    border-radius: 10PX;
+}
+table{
+    
+   border-radius: 10px;
+    border: 1px solid blue;
+    table-layout: fixed ;
+    width: 100% ;
+    background-color: black;
+    
+};
+   
+
+td{
+    text-align: center;
+    width: 25% ;
+   
+}
+button,[type="button"]{
+    border-radius: 25px;
+    width: 100%;
+    color: white;
+    background-color: rgb(48, 44, 44);
+    
+}
+input[type="button"],i{
+    size: 300px;
+    font-size: 30px;
+}
+[name="sign"]{
+    /* background-color: rgb(255, 123, 0); */
+    background-image: linear-gradient(rgb(252, 143, 0),rgb(255, 187, 0));
+}
+[name="sign-1"]{
+    background-color: rgb(255, 196, 0);
+}
+[name="cancel"]{
+    background-color: rgb(130, 127, 133);
+}
+textarea{width: 48vh;}
