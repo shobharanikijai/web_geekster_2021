@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(192, 198, 201);
+    padding: 10px 15rem 9px 15rem;
+   background-color: #fff;
+}
+
+/* //logo// */
+#logo .Instagram_logo{
+    height:35px;
+    width: 100px;;
+}
+
+/* //search box// */
+#search .search{
+    background-color: rgb(241, 241, 241);
+    height: 35px;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 2.375rem;
+    color: rgb(226, 219, 219);
+}
+header #search input:focus {
+    outline:none;
+}
+#search i{
+    position: absolute;
+}
+#search .icon {
+    padding: 10px;
+    min-width: 40px;
+    color: rgb(184, 177, 177);
+}
+#search input{
+    width: 100%;
+    
+}
+/* //haeder icons// */
+#icons{
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+#icons i{
+    padding: 10px 10px 10px 10px;
+    /* background-color: red; */
+    margin-top: 0;
+    
+}
+#icons img{
+  height: 25px;
+  width: 25px;
+  border-radius: 20px;
+  padding-top: 4px;
+  margin-left: 10px;
+  margin-right: 10px;;
+  
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+section{
+    margin-right: 15rem;
+    margin-left: 15rem;
+    margin-top: 10px;
+}
+section{
+    display: flex;
+}
+
+
+section #profiles .profile-pic, #side-sect .profile-pic{
+    height: 58px;
+    width: 60px;
+    border-radius: 50px;
+    padding: 15px;
+}
+#profiles{
+    border: 1px solid rgb(197, 197, 197);
+}
+#main-sect{
+    border: 1px solid rgb(197, 197, 197);
+    /* padding: 5px 10px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#main-sect .main-sect-header {
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+   
+}
+#main-sect  .main-sect-head{
+    display: flex;
+    
+}
+#main-sect .main-sect-head p{
+    padding-left: 8px;
+}
+#main-sect .profile-pic-1, #side-sect .profile-pic-1{
+    height: 35px;
+    width: 35px;
+    border-radius: 80px;
+    border: 1px solid rgb(202, 197, 197);
+}
+#main-sect .main-sect-head01{
+
+    padding-top: 13px;
+}
+
+#main-sect .main-sect-body .pic img{
+    width:100%;
+}
+#main-sect .main-sect-body .pic{
+    
+    width:100%;
+    overflow:hidden; 
+    margin: 0;
+    padding: 0;
+}
+#main-sect .main-sect-body .notify{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+#main-sect .main-sect-body .notify i{
+    padding: 5px;
+    color: rgb(43, 42, 44);
+}
+#main-sect .main-sect-body .post{
+    display: flex;
+    justify-content: space-between;
+    
+    border-top: 1px solid rgb(202, 197, 197);
+    padding: 10px  10px;
+    height: 30px;
+   
+}
+#main-sect .main-sect-body .post input{
+    border-style: none;  
+}
+#main-sect .main-sect-body .post input:focus {
+    outline:none;
+}
+#main-sect .main-sect-body .post p{
+    color: rgb(53, 161, 223);
+}
+#main-sect .main-sect-body .post-comment{
+    align-self: center;
+}
+/* #main-sect .main-sect-body .add-comment{border: 1px solid pink;} */
+
+
+#side-sect{
+    padding-left: 20px;
+    width: 30%;
+    
+}
+#side-sect .side-sect-header{
+    display: flex;
+
+}
+#side-sect p{
+    font-size: small;
+}
+#side-sect p:first-child{
+    font-weight: bold;
+}
+#side-sect p:last-child{
+    color: grey;
+}
+table{
+    width: 100%;
+}
+#side-sect table th{
+    color: grey;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+#side-sect .side-sect-body table td{
+    font-size: small;
+}
+#side-sect .side-sect-body table .follow{
+    color: rgb(0, 132, 255);
+}
+#side-sect .footer p{
+    color: rgb(211, 203, 203);
+    font-size: 10px;
+    font-weight: lighter;
+    font-style: normal;
+    
+}
+/* #side-sect .footer{
+    width: 100%;
+} */
