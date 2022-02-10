@@ -1,0 +1,80 @@
+*{
+    text-align: center;
+ }
+ body{
+    background-color: rgb(169, 216, 200);
+ }
+ #search{
+    border: 2px solid rgb(139, 144, 190);
+    background-color: rgb(218, 231, 240);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    font-size: 15px;           
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 20px;
+ }
+ #initButton{
+    margin-top: 10px;
+    background-color: rgb(226, 225, 126);
+    border: 1px solid rgb(226, 225, 126);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px ;
+    color: rgb(252, 0, 0);
+    display: inline-block;
+    font-size: 20px;
+ }
+ .btn-grad:hover {
+    background-position: right center; 
+    color: rgb(247, 238, 238);
+    text-decoration: none;
+ }
+ .container {
+    margin: auto;
+    margin-top: 30px;
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+ }
+ .container img {
+    padding: 30px; 
+    width: 200px;
+    height: 200px ;
+ }
+ .container img:hover {
+    border: 3px solid transparent;
+    transform: scale(1.1); 
+ }
+ .overlay { 
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+ }
+ .overlay img {
+    width: 70vw;
+    height: 80vh;
+ }
+ .overlay button {
+    border: 2px solid transparent;
+    background: #16222A ;
+    padding: 10px;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right:30px;
+ }
+ .d-none { 
+    display: none;
+ }
