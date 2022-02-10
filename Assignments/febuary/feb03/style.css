@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    background-color: rgb(235, 207, 218);
+}
+h1{
+    color: rgb(106, 69, 240);
+    margin-bottom: 50px;;
+}
+.body1{
+    display: flex;
+    flex-flow: row wrap;
+    /* border: 1px solid; */
+    width: 300px;
+    justify-content: space-between;
+    margin: auto;
+    background-color: rgb(220, 244, 245);
+    border-radius: 20px;
+}
+.btn{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(58, 117, 98);
+}
+button{
+    background-color: rgb(177, 245, 222);
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    border: none;
+}
+#counter{
+    font-size: large;
+    font-weight: bolder;
+    color: blue;
+}
