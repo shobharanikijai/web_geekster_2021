@@ -1,0 +1,51 @@
+body {
+    background-image: linear-gradient(to left, rgb(150, 56, 126), rgb(224, 120, 181));
+  }
+ h1 {
+    text-align: center;
+    color: rgb(214, 238, 79);
+    
+  }
+  .timer {
+    border: 1px solid;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(85, 18, 105);
+    color: white;
+    padding: 10px;
+    justify-content: space-around;
+  }
+  button {
+    border: transparent;
+    font-weight: bold;
+    background-color: #7da3e0;
+    font-size: large;
+    padding: 5px 40px 5px 40px;
+    border-radius: 20px;
+    
+  }
+
+  button:hover {
+    background-color: rgb(103, 103, 156);
+  }
+
+  #resume {
+    background-color: white;
+  }
+  #resume:hover {
+    background-color: rgb(175, 167, 212);
+  }
+  .empty {
+    background-color: white;
+    height: 5px;
+    width: 100%;
+    border-radius: 15px;
+  }
+  .empty1 {
+    border-radius: 15px;
+    height: 100%;
+    background-color: rgb(125, 44, 255);
+  }
+  
