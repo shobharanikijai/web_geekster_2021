@@ -1,0 +1,57 @@
+*{box-sizing: border-box;}
+body{background-color: rgb(214, 243, 233);}
+img {
+    height: 140px;
+    width: 150px;
+    border-radius: 150px;
+    box-shadow: 20px -1px  rgb(193, 230, 106);
+}
+main{display: flex; justify-content: center;}
+article{
+    background-color: aliceblue;
+    padding: 18px;
+    box-shadow: rgba(8, 150, 216, 0.26) 0px 8px 24px;
+    border-radius: 10px;
+}
+.title{ font-family: Arial, Helvetica, sans-serif;}
+#author{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.underline{
+    background-color: rgb(13, 199, 199);;
+    padding: 3px;
+    width: 50px;
+    margin: -15px auto 20px auto;
+    
+}
+.container{
+    border: 4px solid rgb(203, 241, 228);
+    width: 70vw;
+    text-align: center;
+    border-radius: 15px;
+    padding: 30px;
+}
+#info{text-align: justify; padding: 0px 20px 0px 20px; }
+.button-container { margin-bottom: 10px;}
+[name="click-btn"]{
+    border: none;
+    background-color: aliceblue;
+    color: rgb(13, 199, 199);
+    font-size: 30px;
+    padding: 2px 15px 2px 15px;
+}
+[name="click-btn"]:hover{
+    background-color: rgb(184, 212, 212);
+    border-radius: 70px;
+}
+.random-btn:hover{box-shadow: rgba(10, 8, 114, 0.473) 5px 5px 15px;}
+
+.random-btn{
+    border-radius: 10px;
+    border: 2px solid rgb(13, 199, 199);
+    padding: 6px;
+    color: rgb(4, 167, 167);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(214, 240, 240);
+
+}
+#job{  color: rgb(9, 158, 158);}
